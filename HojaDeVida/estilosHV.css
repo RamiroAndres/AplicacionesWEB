@@ -1,4 +1,39 @@
-h1{
-	margin: 12px ;width: 500px;height: 100px;
+#table1{
 	border-radius: 15px 15px 15px 15px;
 }
+#table2{
+	border-style: solid;
+	border-radius: 5px 5px 5px 5px;
+	border-width: 2px;
+	margin: 1px ;
+}
+#table3{
+	border-left: hidden;
+	border-top: hidden;
+}
+#table4{
+	border-left: hidden;
+	border-top: hidden;
+	border-right: hidden;
+	border-bottom: hidden;
+}
+#tr1,#td1{
+	border: hidden;
+}
+#td2,#tr2{
+	border-style: solid;
+	border-left: hidden;
+	border-top: hidden;
+	/*border-bottom: hidden;*/
+}
+#td3,#tr3{
+	border-right: groove;
+	border-left: hidden;
+	border-top: hidden;
+}
+#td4{
+	border-left: hidden;
+	border-top: hidden;
+	border-bottom: hidden;
+}
+
