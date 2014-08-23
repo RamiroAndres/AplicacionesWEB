@@ -36,4 +36,14 @@
 	border-top: hidden;
 	border-bottom: hidden;
 }
+#td5{	
+	border-left: hidden;
+	border-top: hidden;
+	border-bottom: hidden;
+}
+#td6{	
+	border-left: hidden;
+	border-top: hidden;
+	border-right: hidden;
+}
 
