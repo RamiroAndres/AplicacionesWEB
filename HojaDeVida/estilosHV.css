@@ -1,5 +1,19 @@
+<<<<<<< HEAD
 #div1{
+=======
+#Prueba{
+	border: 10px double solid black;
+}
+#div1{
+	margin: 10px;
+>>>>>>> 1de18875516adabe73a88df0808c57e4bd2721c2
 	border-radius: 15px 15px 15px 15px;
+	border:double;
+	border-left: hidden;
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 1000px;
 }
 #div2{
 	border-style: solid;
