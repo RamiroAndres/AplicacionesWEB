@@ -1,17 +1,17 @@
-#table1{
+#div1{
 	border-radius: 15px 15px 15px 15px;
 }
-#table2{
+#div2{
 	border-style: solid;
 	border-radius: 5px 5px 5px 5px;
 	border-width: 2px;
 	margin: 1px ;
 }
-#table3{
+#div3{
 	border-left: hidden;
 	border-top: hidden;
 }
-#table4{
+#div4{
 	border-left: hidden;
 	border-top: hidden;
 	border-right: hidden;

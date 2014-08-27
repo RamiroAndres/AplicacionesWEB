@@ -1,0 +1,5 @@
+ShortHand:
+
+	Margin-Margen
+	Border-Ancho del borde de la caja
+		PaddingX2+marginx2+border+ancho
