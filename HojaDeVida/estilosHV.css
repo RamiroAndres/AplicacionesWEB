@@ -1,63 +1,39 @@
-<<<<<<< HEAD
-#div1{
-=======
-#Prueba{
-	border: 10px double solid black;
-}
-#div1{
-	margin: 10px;
->>>>>>> 1de18875516adabe73a88df0808c57e4bd2721c2
+.prueba{
+	margin-left: 10px;
+	width: 1000px;
+	height: 1500px;
 	border-radius: 15px 15px 15px 15px;
-	border:double;
-	border-left: hidden;
-	position: relative;
-	float: left;
-	width: 100px;
-	height: 1000px;
-}
-#div2{
+	border-color: blue;
+	background-color: aqua;
 	border-style: solid;
-	border-radius: 5px 5px 5px 5px;
 	border-width: 2px;
-	margin: 1px ;
 }
-#div3{
-	border-left: hidden;
-	border-top: hidden;
+.Logo{
+	margin-left: 10px;
+	width: 100px;
+	height: 100px;
 }
-#div4{
-	border-left: hidden;
-	border-top: hidden;
-	border-right: hidden;
-	border-bottom: hidden;
+.codigo{
+	width: 300px;
+	height: 100px;
+	position: relative;
+	left: 390px;
+	top: -10px;
 }
-#tr1,#td1{
-	border: hidden;
+.hojadevida{
+	width: 500px;
+	height: 100px;
+	position: relative;
+	left: 625px;
+	top: -80px;
+	border-style: groove;
 }
-#td2,#tr2{
+.marco{
+	margin-left: 10px;
+	width: 1115px;
+	height: 40px;
+	border-radius: 15px 15px 15px 15px;
 	border-style: solid;
-	border-left: hidden;
-	border-top: hidden;
-	/*border-bottom: hidden;*/
+	border-width: 2px;
+	background-color: lightgray; 
 }
-#td3,#tr3{
-	border-right: groove;
-	border-left: hidden;
-	border-top: hidden;
-}
-#td4{
-	border-left: hidden;
-	border-top: hidden;
-	border-bottom: hidden;
-}
-#td5{	
-	border-left: hidden;
-	border-top: hidden;
-	border-bottom: hidden;
-}
-#td6{	
-	border-left: hidden;
-	border-top: hidden;
-	border-right: hidden;
-}
-
