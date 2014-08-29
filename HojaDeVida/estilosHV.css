@@ -18,22 +18,69 @@
 	height: 100px;
 	position: relative;
 	left: 390px;
-	top: -10px;
+	top: -125px;
 }
-.hojadevida{
-	width: 500px;
-	height: 100px;
+.hojadevida{	
 	position: relative;
-	left: 625px;
-	top: -80px;
-	border-style: groove;
+	left: 590px;
+	top: -200px;
 }
-.marco{
+.marco1{
 	margin-left: 10px;
-	width: 1115px;
-	height: 40px;
+	margin-top: 60px;
+	width: 940px;
+	height: 45px;
 	border-radius: 15px 15px 15px 15px;
 	border-style: solid;
 	border-width: 2px;
 	background-color: lightgray; 
+}
+.marco2{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 940px;
+	height: 30px;
+	border-radius: 15px 15px 15px 15px;
+	border-style: solid;
+	border-width: 2px;
+	background-color: gray;
+}
+.campos{
+	margin-left: 10px;
+}
+.bordeIzq{
+	border-left: groove;
+	position: relative;
+	left: 230px;
+	top: -40px;
+}
+.bordeDia{
+	border-left: groove;
+	position: relative;
+	left: 230px;
+	top: -40px;
+}
+.bordeMes{
+	border-left: groove;
+	position: relative;
+	left: 290px;
+	top: -60px;
+}
+.bordeAnio{
+	border-left: groove;
+	position: relative;
+	left: 350px;
+	top: -80px;
+}
+.empleo{
+	position: relative; ;
+	border-left: groove;
+	left: 430px;
+	top: -120px;	
+}
+.codcargo{
+	position: relative;
+	border-left: groove;
+	left: 750px;
+	top: -160px;
 }
