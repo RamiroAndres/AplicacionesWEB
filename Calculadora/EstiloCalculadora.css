@@ -1,3 +1,18 @@
+#numero{
+	font-family: monospace;
+	border:hidden;
+	background-color: gray;
+}
+#operaciones{
+	font-family: monospace;
+	border:hidden;
+	background-color: mediumturquoise;
+}
+#varios{
+	font-family: monospace;
+	border:hidden;
+	background-color: lightgray;
+}
 .cuerpo{
 	font-family: monospace;
 	position: fixed;
@@ -6,160 +21,113 @@
 	width: 240px;
 	height: 300px;
 }
-.numero0{
-	font-family: monospace;
-	border:hidden;	
+.resultado{		
 	position: absolute;
 	top: 265px;
-	background-color: gray;
+	left: 60px;	
 	width: 60px;
 	height: 35px;
 }
-.numero1{
-	font-family: monospace;
-	border:hidden;	
+.borrar{		
+	position: absolute;
+	top: 265px;
+	left: 120px;
+	width: 60px;
+	height: 35px;
+}
+.numero0{		
+	position: absolute;
+	top: 265px;	
+	width: 60px;
+	height: 35px;
+}
+.numero1{	
 	position: absolute;
 	top: 230px;
-	background-color: gray;
 	width: 60px;
 	height: 35px;
 }
 .numero2{
-	font-family: monospace;
-	border:hidden;
 	position: absolute;
 	top: 230px;
 	left: 60px;
-	background-color: gray;
 	width: 60px;
 	height: 35px;
 }
-.numero3{
-	font-family: monospace;
-	border:hidden;	
+.numero3{		
 	position: absolute;
 	top: 230px;
-	left: 120px;
-	background-color: gray;
+	left: 120px;	
 	width: 60px;
 	height: 35px;
 }
-.numero4{
-	font-family: monospace;
-	border:hidden;	
+.numero4{		
 	position: absolute;
-	top: 195px;
-	background-color: gray;
+	top: 195px;	
 	width: 60px;
 	height: 35px;
 }
-.numero5{
-	font-family: monospace;
-	border:hidden;	
+.numero5{	
 	position: absolute;
 	top: 195px;
-	left: 60px;
-	background-color: gray;
+	left: 60px;	
 	width: 60px;
 	height: 35px;
 }
 .numero6{
-	font-family: monospace;
-	border:hidden;	
 	position: absolute;
 	top: 195px;
-	left: 120px;
-	background-color: gray;
+	left: 120px;	
 	width: 60px;
 	height: 35px;
 }
-.numero7{
-	font-family: monospace;
-	border:hidden;
+.numero7{	
 	position: absolute;
-	top: 160px;
-	background-color: gray;
+	top: 160px;	
 	width: 60px;
 	height: 35px;
 }
 .numero8{
-	font-family: monospace;
 	position: absolute;
-	border:hidden;
 	top: 160px;
 	left: 60px;
-	background-color: gray;
 	width: 60px;
 	height: 35px;
 }
 .numero9{
-	font-family: monospace;
 	position: absolute;
-	border:hidden;
 	top: 160px;
 	left: 120px;
-	background-color: gray;
 	width: 60px;
 	height: 35px;
 }
-.resultado{
-	font-family: monospace;
-	border:hidden;	
+
+.suma{		
 	position: absolute;
 	top: 265px;
-	left: 60px;
-	background-color: lightgray;
-	width: 60px;
-	height: 35px;
-}
-.borrar{
-	font-family: monospace;
-	border:hidden;	
-	position: absolute;
-	top: 265px;
-	left: 120px;
-	background-color: lightgray;
-	width: 60px;
-	height: 35px;
-}
-.suma{
-	font-family: monospace;
-	border:hidden;	
-	position: absolute;
-	top: 265px;
-	left: 180px;
-	background-color: mediumturquoise;
+	left: 180px;	
 	width: 60px;
 	height: 35px;
 }
 .resta{
-	font-family: monospace;
-	border:hidden;	
 	position: absolute;
 	top: 230px;
-	left: 180px;
-	background-color: mediumturquoise;
+	left: 180px;	
 	width: 60px;
 	height: 35px;
 }
 
 .multiplicacion{
-	font-family: monospace;
-	border:hidden;	
 	position: absolute;
 	top: 195px;
 	left: 180px;
-	background-color: mediumturquoise;
 	width: 60px;
 	height: 35px;
 }
 .division{
-	font-family: monospace;
-	border:hidden;	
 	position: absolute;
 	top: 160px;
 	left: 180px;
-	background-color: mediumturquoise;
 	width: 60px;
 	height: 35px;
 }

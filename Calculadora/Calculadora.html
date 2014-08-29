@@ -8,24 +8,24 @@
 	<form name="calc" >
 		<div class="cuerpo">
 			<input type="text" name="screen" class="visor" />
-			<input type="button" value="0" class="numero0" onclick="calc.screen.value +='0'" />
-			<input type="button" value="1" class="numero1" onclick="calc.screen.value +='1'"/>
-			<input type="button" value="2" class="numero2" onclick="calc.screen.value +='2'"/>
-			<input type="button" value="3" class="numero3" onclick="calc.screen.value +='3'"/>
-			<input type="button" value="4" class="numero4" onclick="calc.screen.value +='4'"/>
-			<input type="button" value="5" class="numero5" onclick="calc.screen.value +='5'"/>
-			<input type="button" value="6" class="numero6" onclick="calc.screen.value +='6'"/>
-			<input type="button" value="7" class="numero7" onclick="calc.screen.value +='7';"/>
-			<input type="button" value="8" class="numero8" onclick="calc.screen.value +='8'"/>
-			<input type="button" value="9" class="numero9" onclick="calc.screen.value +='9'"/>
+			<input type="button" class="numero0" id="numero" value="0" onclick="calc.screen.value +='0'" />
+			<input type="button" class="numero1" id="numero" value="1" onclick="calc.screen.value +='1'"/>
+			<input type="button" class="numero2" id="numero" value="2" onclick="calc.screen.value +='2'"/>
+			<input type="button" class="numero3" id="numero" value="3" onclick="calc.screen.value +='3'"/>
+			<input type="button" class="numero4" id="numero" value="4" onclick="calc.screen.value +='4'"/>
+			<input type="button" class="numero5" id="numero" value="5" onclick="calc.screen.value +='5'"/>
+			<input type="button" class="numero6" id="numero" value="6" onclick="calc.screen.value +='6'"/>
+			<input type="button" class="numero7" id="numero" value="7" onclick="calc.screen.value +='7';"/>
+			<input type="button" class="numero8" id="numero" value="8" onclick="calc.screen.value +='8'"/>
+			<input type="button" class="numero9" id="numero" value="9" onclick="calc.screen.value +='9'"/>
 
-			<input type="button" value="+" class="suma" onclick="calc.screen.value +='+'"/>
-			<input type="button" value="-" class="resta" onclick="calc.screen.value +='-'"/>
-			<input type="button" value="*" class="multiplicacion" onclick="calc.screen.value +='*'"/>
-			<input type="button" value="/" class="division"onclick="calc.screen.value +='/'"/>
+			<input type="button" class="suma" id="operaciones"  value="+" onclick="calc.screen.value +='+'"/>
+			<input type="button" class="resta" id="operaciones"  value="-" onclick="calc.screen.value +='-'"/>
+			<input type="button" class="multiplicacion" id="operaciones"  value="*" onclick="calc.screen.value +='*'"/>
+			<input type="button" class="division" id="operaciones"  value="/" onclick="calc.screen.value +='/'"/>
 
-			<input type="button" value="DEL" class="borrar"onclick="borrar(this)"/>
-			<input type="button" value="=" class="resultado"onclick="resultado()"/>
+			<input type="button" class="borrar" id="varios" value="DEL" onclick="borrar(this)"/>
+			<input type="button" class="resultado" id="varios" value="=" onclick="resultado()"/>
 		</div>
 	</form>
 </body>
