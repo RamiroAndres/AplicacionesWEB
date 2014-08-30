@@ -7,7 +7,7 @@
 <body>
 	<form name="calc" >
 		<div class="cuerpo">
-			<input type="text" name="screen" class="visor" />
+			<input type="text" name="screen" class="visor" readonly="readonly" />
 			<input type="button" value="0" class="numero0" onclick="calc.screen.value +='0'" />
 			<input type="button" value="1" class="numero1" onclick="calc.screen.value +='1'"/>
 			<input type="button" value="2" class="numero2" onclick="calc.screen.value +='2'"/>
@@ -23,7 +23,6 @@
 			<input type="button" value="-" class="resta" onclick="calc.screen.value +='-'"/>
 			<input type="button" value="*" class="multiplicacion" onclick="calc.screen.value +='*'"/>
 			<input type="button" value="/" class="division"onclick="calc.screen.value +='/'"/>
-
 			<input type="button" value="DEL" class="borrar"onclick="borrar(this)"/>
 			<input type="button" value="=" class="resultado"onclick="resultado()"/>
 		</div>
