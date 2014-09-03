@@ -1,3 +1,10 @@
+.cajon{
+	border-top: hidden;
+	border-left: hidden;
+	border-right: medium;
+	border-bottom: solid;
+	border-width: 2px;
+}
 .prueba{
 	margin-left: 10px;
 	width: 1000px;
@@ -17,18 +24,18 @@
 	width: 300px;
 	height: 100px;
 	position: relative;
-	left: 390px;
+	left: 550px;
 	top: -125px;
 }
 .hojadevida{	
 	position: relative;
-	left: 590px;
+	left: 750px;
 	top: -200px;
 }
 .marco1{
 	margin-left: 10px;
 	margin-top: 60px;
-	width: 940px;
+	width: 1100px;
 	height: 45px;
 	border-radius: 15px 15px 15px 15px;
 	border-style: solid;
@@ -38,16 +45,25 @@
 .marco2{
 	margin-left: 10px;
 	margin-top: 10px;
-	width: 940px;
+	width: 1100px;
 	height: 30px;
 	border-radius: 15px 15px 15px 15px;
 	border-style: solid;
 	border-width: 2px;
 	background-color: gray;
 }
+.marco3{
+	margin-left: 10px;
+	width: 900px;
+	height: 300px;
+	border-radius: 15px 15px 15px 15px;
+	border-style: solid;
+	border-width: 2px;
+}
 .campos{
 	margin-left: 10px;
 }
+
 .bordeIzq{
 	border-left: groove;
 	position: relative;
@@ -76,11 +92,68 @@
 	position: relative; ;
 	border-left: groove;
 	left: 430px;
-	top: -120px;	
+	top: -115px;	
 }
 .codcargo{
 	position: relative;
 	border-left: groove;
 	left: 750px;
-	top: -160px;
+	top: -155px;
+}
+.fondoGris{
+	background-color: lightgray;
+	border:hidden;
+}
+.fondoBlanco{
+	border:hidden;
+}
+#pa{
+	position: absolute;
+	left: 20px;
+	top: 260px;
+}
+#sa{
+	position: absolute;
+	left: 280px;
+	top: 260px;
+	width: 300px;
+}
+#nombres{
+	position: absolute;
+	left: 558px;
+	top: 260px;
+	width: 360px;
+}
+#poo{
+	position: absolute;
+	left: 20px;
+	top: 300px;
+	width: 348px;
+}
+#anios{
+	position: absolute;
+	left: 460px;
+	top: 300px;
+	width: 200px;
+}
+#salario{
+	position: absolute;
+	left: 658px;
+	top: 300px;
+	width: 260px;
+}
+.bordeInf{
+	border-right: hidden;
+	border-left: hidden;
+	border-top: hidden;
+	border-bottom: groove;
+	border-width: 2px;
+	width: 260px;
+}
+.bordeInfIzq{
+	border-right: hidden;
+	border-left: groove;
+	border-top: hidden;
+	border-bottom: groove;
+	border-width: 2px;
 }
