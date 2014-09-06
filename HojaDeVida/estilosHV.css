@@ -9,7 +9,7 @@
 	margin-left: 10px;
 	width: 1000px;
 	height: 1500px;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 15px;
 	border-color: blue;
 	background-color: aqua;
 	border-style: solid;
@@ -32,12 +32,17 @@
 	left: 750px;
 	top: -200px;
 }
+.foto{
+	position: relative;
+	left: 905px;
+	top: -110px;
+}
 .marco1{
 	margin-left: 10px;
 	margin-top: 60px;
 	width: 1100px;
 	height: 45px;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 15px;
 	border-style: solid;
 	border-width: 2px;
 	background-color: lightgray; 
@@ -47,7 +52,7 @@
 	margin-top: 10px;
 	width: 1100px;
 	height: 30px;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 15px;
 	border-style: solid;
 	border-width: 2px;
 	background-color: gray;
@@ -55,8 +60,16 @@
 .marco3{
 	margin-left: 10px;
 	width: 900px;
-	height: 300px;
-	border-radius: 15px 15px 15px 15px;
+	height: 223px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 2px;
+}
+.marco4{
+	margin-left: 10px;
+	width: 1100px;
+	height: 85px;
+	border-radius: 15px;
 	border-style: solid;
 	border-width: 2px;
 }
@@ -106,54 +119,151 @@
 }
 .fondoBlanco{
 	border:hidden;
+	width: inherit;
+}
+.fondoFecha{
+	border:hidden;
+	width: 50px;
+}
+.borde{	
+	border: groove;
+	border-top: hidden;
+	border-width: 2px;
+}
+.bordeFecha{
+	border-top: hidden;
+	border: groove;
+	border-width: 50px;
 }
 #pa{
 	position: absolute;
 	left: 20px;
 	top: 260px;
+	width: 259px;
 }
 #sa{
 	position: absolute;
 	left: 280px;
 	top: 260px;
-	width: 300px;
+	width: 277px;
 }
 #nombres{
 	position: absolute;
 	left: 558px;
 	top: 260px;
-	width: 360px;
+	width: 353px;
 }
 #poo{
 	position: absolute;
 	left: 20px;
 	top: 300px;
-	width: 348px;
+	width: 439px;
 }
 #anios{
 	position: absolute;
 	left: 460px;
 	top: 300px;
-	width: 200px;
+	width: 197px;
 }
 #salario{
 	position: absolute;
 	left: 658px;
 	top: 300px;
-	width: 260px;
+	width: 253px;
 }
-.bordeInf{
-	border-right: hidden;
-	border-left: hidden;
-	border-top: hidden;
-	border-bottom: groove;
-	border-width: 2px;
-	width: 260px;
+#nacimiento{
+	position: absolute;
+	left: 20px;
+	top: 340px;
+	width: 365px;
 }
-.bordeInfIzq{
-	border-right: hidden;
-	border-left: groove;
-	border-top: hidden;
-	border-bottom: groove;
-	border-width: 2px;
+#fecha{
+	position: absolute;
+	left: 387px;
+	top: 340px;
+	width: 270px;
+}
+#estadocivil{
+	position: absolute;
+	left: 658px;
+	top: 340px;
+	width: 253px;
+}
+#domicilio{
+	position: absolute;
+	left: 20px;
+	top: 380px;
+	width: 419px;
+}
+#barrio{
+	position: absolute;
+	left: 440px;
+	top: 380px;
+	width: 217px;
+}
+#telefono{
+	position: absolute;
+	left: 658px;
+	top: 380px;
+	width: 253px;
+}
+#cedula{
+	position: absolute;
+	left: 20px;
+	top: 420px;
+	width: 400px;
+}
+#libreta{
+	position: absolute;
+	left: 421px;
+	top: 420px;
+	width: 490px;
+}
+#licencia{
+	position: absolute;
+	left: 20px;
+	top: 485px;
+	width: 215px;
+}
+#vivienda{
+	position: absolute;
+	left: 237px;
+	top: 485px;
+	width: 120px;
+}
+#nombrearrendador{
+	position: absolute;
+	left: 358px;
+	top: 485px;
+	width: 370px;
+}
+#telefono2{
+	position: absolute;
+	left: 729px;
+	top: 485px;
+	width: 185px;
+}
+#valorarriendo{
+	position: absolute;
+	left: 915px;
+	top: 485px;
+	width: 200px;
+}
+#trabajo{
+	position: absolute;
+	left: 20px;
+	top: 525px;
+	width: 200px;
+}
+#empresa{
+	position: absolute;
+	left: 221px;
+	top: 525px;
+	width: 528px;
+}
+#tipo{
+	position: absolute;
+	left: 750px;
+	top: 525px;
+	width: 365px;
 }
